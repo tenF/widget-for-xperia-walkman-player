@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music Widget for WALKMAN™</string>
+    <string name="app_name_simple">W.M.W. Controls</string>
+    <string name="app_name_4x3">W.M.W. Large</string>
+    <string name="app_name_4x2">W.M.W. Medium</string>
+    <string name="app_name_4x4">W.M.W. Compact</string>
+    <string name="app_name_small">W.M.W. Small</string>
+    <string name="servicetitle">Music Service</string>
+
+    <color name="transwhite">#80a1a1a1</color>
+    <color name="transgrey">#805c5c5c</color>
+    <color name="transblack">#a6000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="custom_theme_color">#b0b0ff</color>
+    <color name="class_zero_background">#7f040000</color>
+    <color name="dark_background">#000000</color>
+    <color name="dim_background">#80000000</color>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ad">AdActivity</string>
+
+</resources>

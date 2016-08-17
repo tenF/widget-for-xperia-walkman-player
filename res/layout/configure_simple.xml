@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:summary="Actually, this is useful to know"
+        android:title="Tips and tricks" >
+
+        <Preference
+            android:summary="Double-tap background to open settings"
+            android:title="Edit widget settings" />
+
+        <Preference
+            android:summary="If for some reasons the widget is unresponsive, try resizing it in order to refresh it &amp; avoid re-installation"
+            android:title="Refresh widget" />
+
+        <Preference
+            android:summary="If for some reasons the widget is misbehaving after an update, please reboot your phone"
+            android:title="Post update" />
+
+        <Preference
+            android:summary="If you experience some problems that cannot be fixed by rebooting your phone and clearing app data and cache please use the contact information from the previous screen down below"
+            android:title="Bugs" />
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="APPEARANCE" >
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="true"
+            android:defaultValue="@color/transparent"
+            android:key="bgrcolor_simple"
+            android:summary="Choose background color"
+            android:title="Background color" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/buttonArray"
+            android:entryValues="@array/buttonValues"
+            android:key="buttonPref_simple"
+            android:title="Button style" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lsm_simple"
+            android:summary="Show the widget only while the music is playing"
+            android:title="Auto-hide widget" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="ABOUT" >
+
+        <Preference
+            android:key="cpRC"
+            android:summary="Leave feedback on Google Play store"
+            android:title="Rate and Comment" />
+
+        <Preference
+            android:key="cpOA"
+            android:summary="Check out my other apps"
+            android:title="My other apps" />
+
+        <Preference
+            android:key="cpTwitter"
+            android:summary="@string/fmtsum"
+            android:title="Follow me on Twitter" />
+
+        <Preference
+            android:key="customPref"
+            android:summary="@string/emailmesum"
+            android:title="Contact me" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/adrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <!--
+             <com.appodeal.ads.BannerView
+            android:id="@+id/appodealBannerView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:visibility="gone" />
+        -->
+
+        <com.google.android.gms.ads.NativeExpressAdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="320x150"
+            ads:adUnitId="@string/ad_unit_id" />
+        
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/appodealBannerView"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@color/dim_background"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/cc"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/cancel"
+                android:gravity="center"
+                android:onClick="cc" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >    
+  <style android:name="AudioFileInfoOverlayText">
+    <item android:name="android:paddingLeft">4px</item>
+    <item android:name="android:paddingBottom">4px</item>
+    <item android:name="android:textColor">#ffffffff</item>
+    <item android:name="android:textSize">12sp</item>
+    <item android:name="android:shadowColor">#000000</item>
+    <item android:name="android:shadowDx">1</item>
+    <item android:name="android:shadowDy">1</item>
+    <item android:name="android:shadowRadius">1</item>
+  </style>
+</shape>

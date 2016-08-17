@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.voiche.musicwidget.Configure_simple"
+    android:initialLayout="@layout/main_simple"
+    android:label="@string/app_name_simple"
+    android:minHeight="40dip"
+    android:minWidth="180dip"
+    android:previewImage="@drawable/preview_simple"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen|keyguard"/>

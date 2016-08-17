@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="emailmesum">Email me to request a feature or to report a bug</string>
+    <string name="fmtsum">Get notified about my developments</string>
+    <string name="title_activity_configure">Configure Settings</string>
+
+    <string-array name="fontArray">
+        <item>12 pt</item>
+        <item>13 pt</item>
+        <item>14 pt</item>
+        <item>15 pt</item>
+        <item>16 pt</item>
+        <item>17 pt</item>
+    </string-array>
+    <string-array name="fontValues">
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="buttonArray">
+        <item>Holo</item>
+        <item>Circle</item>
+        <item>Circle inversed</item>
+    </string-array>
+    <string-array name="buttonValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

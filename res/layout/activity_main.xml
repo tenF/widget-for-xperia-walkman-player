@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="ABOUT &amp; HOW TO USE THIS APP" >
+
+        <Preference
+            android:summary="This is a widget application ONLY for WALKMAN™ music player. To use the app, open the widget drawer from your launcher, find the Music Widget for WALKMAN™ widgets shortly abbreviated as W.M.W. and choose one of the five available layouts. Settings page will be displayed automatically"
+            android:title="This is a widget application" />
+
+        <Preference
+            android:summary="Double-tap background to open settings"
+            android:title="Edit widget settings" />
+
+        <Preference
+            android:summary="Tap on album art or track name to open player"
+            android:title="Open player" />
+
+        <Preference
+            android:summary="If for some reasons the widget is unresponsive, try resizing it in order to refresh it &amp; avoid re-installation"
+            android:title="Refresh widget" />
+
+        <Preference
+            android:summary="If for some reasons the widget is misbehaving after an update, please try rebooting your phone"
+            android:title="Post update" />
+
+        <Preference
+            android:summary="If you experience some problems that cannot be fixed by rebooting your phone and clearing app data and cache please use the contact information down below"
+            android:title="Bugs" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="ABOUT THE DEVELOPER" >
+
+        <Preference
+            android:key="cpRC"
+            android:summary="Leave feedback on Google Play store"
+            android:title="Rate and Comment" />
+
+        <Preference
+            android:key="cpOA"
+            android:summary="Check out my other apps"
+            android:title="My other apps" />
+
+        <Preference
+            android:key="cpTwitter"
+            android:summary="@string/fmtsum"
+            android:title="Follow me on Twitter" />
+
+        <Preference
+            android:key="customPref"
+            android:summary="@string/emailmesum"
+            android:title="Contact me" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="/home/v10/Downloads/mobilecore_V1.1.jar"/>
+	<classpathentry kind="lib" path="libs/InMobi-4.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/libadapterinmobi.jar"/>
+	<classpathentry kind="lib" path="libs/MMAdMobAdapter_1_5_0.jar"/>
+	<classpathentry kind="lib" path="libs/MMSDK.jar"/>
+	<classpathentry kind="lib" path="libs/nmdp_speech_kit.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="libs/StartAppInApp-2.4.13.jar"/>
+	<classpathentry kind="lib" path="libs/applovin-sdk-5.4.3.jar"/>
+	<classpathentry kind="lib" path="libs/appodeal-1.12.8.jar"/>
+	<classpathentry kind="lib" path="libs/chartboost-5.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/my-target-4.0.11.jar"/>
+	<classpathentry kind="lib" path="libs/unity-ads-1.4.4.jar"/>
+	<classpathentry kind="lib" path="libs/appbrain-applift-sdk-11.02.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
